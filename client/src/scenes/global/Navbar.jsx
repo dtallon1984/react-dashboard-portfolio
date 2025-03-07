@@ -133,7 +133,7 @@ const Navbar = () => {
               Component Demos
             </Typography>
             <Item
-              title="Asset List"
+              title="Data Table"
               to="/assetlist"
               icon={<TimelineOutlinedIcon />}
               selected={selected}

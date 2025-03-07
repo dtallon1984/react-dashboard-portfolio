@@ -58,7 +58,7 @@ const Assetlist = () => {
 
   return (
     <Box>
-      <Header title="Asset List View" subtitle="Viewing a List of Assets" />
+      <Header title="Sortable DataTable" subtitle="Viewing Data in a Sortable Table" />
       <div>
         <Dropdown
           options={options}
@@ -67,8 +67,10 @@ const Assetlist = () => {
         />
       </div>
       <Box
-        m="40px 0 0 0"
+        m="50px 0px 0px 50px"
         height="75vh"
+        width="80vw"
+
         sx={{
           "& .MuiDataGrid-root": {
             border: "none",

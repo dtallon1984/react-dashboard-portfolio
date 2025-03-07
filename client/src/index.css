@@ -10,6 +10,12 @@ body,
   font-family: "Source Sans Pro", "Sans-Serif";
 }
 
+.content {
+  padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
 .app {
   display: flex;
   position: relative;
